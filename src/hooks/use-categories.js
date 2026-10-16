@@ -1,11 +1,11 @@
-import { useContext, useEffect } from 'react'
+import { useContext } from 'react'
 import { NoteContext } from '@/context'
 import { useStorage } from './use-storage'
 import { STORAGE_KEYS } from '@/constants'
 
 export function useCategories() {
     const { categories, setCategories } = useContext(NoteContext)
-    const { setItem, getItem } = useStorage()
+    const { setItem } = useStorage()
 
     const addCategory = (category) => {
         if (category && !categories.includes(category)) {
@@ -36,16 +36,6 @@ export function useCategories() {
         setCategories(localCategories)
         await setItem(STORAGE_KEYS.CATEGORIES, JSON.stringify(localCategories))
     }
-
-    useEffect(() => {
-        (async () => {
-            const categories = await getItem(STORAGE_KEYS.CATEGORIES)
-
-            if (categories) {
-                setCategories(JSON.parse(categories))
-            }
-        })()
-    }, [])
 
     return {
         categories,

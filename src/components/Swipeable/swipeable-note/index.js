@@ -1,5 +1,6 @@
 import { router } from 'expo-router'
-import { Image, Pressable, StyleSheet, View } from 'react-native'
+import { Pressable, StyleSheet, View } from 'react-native'
+import { Image } from 'expo-image'
 import { useTheme } from 'react-native-paper'
 import { SwipeableCard } from '../swipeable-card'
 import { Typography } from '../../typography'
