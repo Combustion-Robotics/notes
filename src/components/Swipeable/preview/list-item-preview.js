@@ -1,7 +1,7 @@
 import { StyleSheet, View } from 'react-native'
 import Animated, { CurvedTransition } from 'react-native-reanimated'
 import { Checkbox, useTheme } from 'react-native-paper'
-import { Typography } from '../../typography'
+import { Typography } from '../../Typography'
 0
 export function ListItemPreview({ type, index, value, status }) {
     const { colors } = useTheme()

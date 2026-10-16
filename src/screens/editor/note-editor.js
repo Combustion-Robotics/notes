@@ -1,6 +1,6 @@
 import { View } from 'react-native'
 import { MarkdownEditor, Section } from '@/components'
-import { ImageCarousel } from '../notes'
+import { ImageCarousel } from '../Notes'
 
 export function NoteEditor({
     value, setValue,

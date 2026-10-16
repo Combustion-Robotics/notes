@@ -1,5 +1,5 @@
 import { StyleSheet, View } from 'react-native'
-import { Typography } from '../typography'
+import { Typography } from '../Typography'
 
 export function Section({ title, children, containerStyle, contentStyle, visible = true }) {
     if (!visible) return null

@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { StyleSheet } from 'react-native'
 import { MarkdownTextInput, parseExpensiMark } from '@expensify/react-native-live-markdown'
 import { useTheme } from 'react-native-paper'
-import { TextArea } from '../input'
+import { TextArea } from '../Input'
 import { FONTS, TRANSPARENT } from '@/constants'
 
 export function MarkdownInput({ isEditing = false, size = 13, ...props }) {

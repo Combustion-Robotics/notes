@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native'
 import { BottomSheetView } from '@gorhom/bottom-sheet'
-import { Typography } from '../typography'
+import { Typography } from '../Typography'
 
 export function ModalHeader({ title }) {
     return (

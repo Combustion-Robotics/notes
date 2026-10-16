@@ -1,2 +1,2 @@
-export { Separator } from './separator'
+export { Separator } from './Separator'
 export { DotSeparator } from './dot-separator'

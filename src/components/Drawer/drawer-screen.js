@@ -1,7 +1,7 @@
 import { Pressable } from 'react-native'
 import { useTheme } from 'react-native-paper'
 import { router } from 'expo-router'
-import { Typography } from '../typography'
+import { Typography } from '../Typography'
 import { ArrowForward } from '@/icons'
 import { TRANSPARENT } from '@/constants'
 

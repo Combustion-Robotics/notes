@@ -2,9 +2,9 @@ import { Image, Pressable, StyleSheet, View } from 'react-native'
 import { useTheme } from 'react-native-paper'
 import { SwipeableCard } from '../swipeable-card'
 import { ListItemPreview } from '../preview/list-item-preview'
-import { Typography } from '../../typography'
-import { MarkdownInput } from '../../markdown'
-import { RestoreAction } from '../actions/restore-action'
+import { Typography } from '../../Typography'
+import { MarkdownInput } from '../../Markdown'
+import { RestoreAction } from '../Actions/restore-action'
 import { getDimensions, getPreviewNote } from '@/utils'
 
 export function SwipeableTrash({ data, isOpen, onOpen, onDelete, onRestore }) {

@@ -2,7 +2,7 @@ import { Linking } from 'react-native'
 import { useTheme } from 'react-native-paper'
 import { useTranslation } from 'react-i18next'
 import * as Application from 'expo-application'
-import { Option } from './option'
+import { Option } from './Option'
 import { OpenInNew } from '@/icons'
 import { LINKS } from '@/constants'
 

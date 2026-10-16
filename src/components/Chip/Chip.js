@@ -1,7 +1,7 @@
 import { Pressable, StyleSheet, View } from 'react-native'
 import { useTheme } from 'react-native-paper'
-import { AnimatedView } from '../animated'
-import { Typography } from '../typography'
+import { AnimatedView } from '../Animated'
+import { Typography } from '../Typography'
 
 export function Chip({ mode = 'flat', onPress, closeIcon, children }) {
     const { colors } = useTheme()

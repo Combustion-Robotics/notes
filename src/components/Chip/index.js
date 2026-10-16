@@ -1,2 +1,2 @@
-export { Chip } from './chip'
+export { Chip } from './Chip'
 export { CloseChipButton } from './close-chip-button'

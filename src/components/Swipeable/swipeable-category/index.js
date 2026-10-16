@@ -1,7 +1,7 @@
 import { Pressable, StyleSheet } from 'react-native'
 import { useTheme } from 'react-native-paper'
 import { SwipeableCard } from '../swipeable-card'
-import { Typography } from '../../typography'
+import { Typography } from '../../Typography'
 import { COMMONS } from '@/constants'
 
 export function SwipeableCategory({ category, onPress, isOpen, onOpen, onDelete, isFirst, isLast }) {

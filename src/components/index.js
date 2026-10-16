@@ -7,13 +7,13 @@ export {
     FloatingButton,
     SquareButton,
     ImagePreview
-} from './button'
+} from './Button'
 
 // Chips
 export {
     Chip,
     CloseChipButton
-} from './chip'
+} from './Chip'
 
 // Cards
 export {
@@ -21,7 +21,7 @@ export {
     SwipeableNote,
     SwipeableTrash,
     SwipeableCategory,
-} from './swipeable'
+} from './Swipeable'
 
 // Inputs
 export {
@@ -29,56 +29,56 @@ export {
     SmallInput,
     TextArea,
     PasswordInput
-} from './input'
+} from './Input'
 
 // Modals
 export {
     ModalSheet,
     ModalHeader
-} from './modal'
+} from './Modal'
 
 export { RadioButtonItem } from './radio-button-item'
 
-export { DialogModal } from './dialog'
+export { DialogModal } from './Dialog'
 
 // Menus
 export {
     SortMenu,
     ListMenu
-} from './menu'
+} from './Menu'
 
 // Drawer
-export { DrawerItems } from './drawer'
+export { DrawerItems } from './Drawer'
 
 // Text
-export { Typography } from './typography'
+export { Typography } from './Typography'
 
 // Checkbox
-export { Checkbox } from './checkbox'
+export { Checkbox } from './Checkbox'
 
 // Lists
 export {
     BulletedItem,
     NumberedItem,
     CheckListItem
-} from './list'
+} from './List'
 
 // Containers
 export {
     Scroll,
     AnimatedView,
     AnimatedList
-} from './animated'
+} from './Animated'
 
-export { Section } from './section'
+export { Section } from './Section'
 
 export {
     Separator,
     DotSeparator
-} from './separator'
+} from './Separator'
 
 // Markdown
 export {
     MarkdownInput,
     MarkdownEditor
-} from './markdown'
+} from './Markdown'

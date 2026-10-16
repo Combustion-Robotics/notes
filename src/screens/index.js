@@ -2,7 +2,7 @@ export {
     Option,
     AppVersionCard,
     ThemeOption
-} from './settings'
+} from './Settings'
 
 // AppBar actions
 export {

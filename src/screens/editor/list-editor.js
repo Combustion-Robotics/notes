@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { Section, Typography } from '@/components'
-import { List } from '../notes'
+import { List } from '../Notes'
 
 export function ListEditor({ list, setList }) {
     const { t } = useTranslation()
